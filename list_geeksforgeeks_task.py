@@ -150,7 +150,7 @@ def remove(list):
 list1=[10,20,30,40,50]
 list2=[]
 sum=0
-for i in range(0,list1):
+for i in range(0,list1[i]):
      sum=sum+list1[i]
      list1.append(sum)
      print(list1)
